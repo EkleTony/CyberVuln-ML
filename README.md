@@ -1,47 +1,38 @@
 # Machine Learning-based Categorization of Cybersecurity Vulnerabilities in Software
 
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://link-to-paper-publication)
-[![Poster](https://img.shields.io/badge/Poster-PDF-orange.svg)](https://link-to-poster)
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)  
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709)  
+[![Poster](https://img.shields.io/badge/Poster-PDF-orange.svg)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
 
-This repository contains the source codes, datasets, and analysis results of our research project focused on Machine Learning-based categorization of cybersecurity vulnerabilities in software. The project received recognition as the "Best Research Poster" in the Department of Computer Science at the Tennessee Technological University Annual Research Conference.
+This repository contains the code, datasets, and results of our research on **Machine Learning-based categorization of cybersecurity vulnerabilities in software**, published at **2024 IEEE UEMCON**. The project was also awarded **Best Research Poster** at Tennessee Tech’s Annual Research Conference.
 
 ## Table of Contents
-
-- [Introduction](#introduction)
-- [Research Paper](#research-paper)
-- [Poster](#poster)
+- [Overview](#overview)
+- [Research Paper & Poster](#research-paper--poster)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Datasets](#datasets)
 - [License](#license)
 - [Contact](#contact)
 
-## Introduction
+## Overview
+Software vulnerabilities pose security risks, and traditional classification methods can be slow and error-prone. This project utilizes **Machine Learning** to automate and improve the categorization of cybersecurity vulnerabilities.
 
-Cybersecurity vulnerabilities in software pose significant risks to organizations and end-users. Traditional methods of categorization and identification of such vulnerabilities can be time-consuming and error-prone. This research project aims to develop a more efficient and accurate approach by leveraging Machine Learning techniques to categorize cybersecurity vulnerabilities in software automatically.
-
-## Research Paper
-
-The comprehensive details of our research, including methodologies, experimental setup, results, and discussions, have been documented in our research paper. You can access the paper in PDF format using the following link: [Link to Paper Publication]([https://link-to-paper-publication](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709))
-
-## Poster
-
-Our research project was presented as a poster at the Tennessee Technological University Annual Research Conference. The poster provides a visual overview of the research objectives, key findings, and conclusions. You can view and download the poster in PDF format using the following link: [Link to Poster]([https://link-to-poster](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC))
+## Research Paper & Poster
+- **Paper:** [IEEE UEMCON 2024](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709)  
+- **Poster:** [Tennessee Tech Research Conference](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
 
 ## Installation
-
-To run the source codes provided in this repository, follow the installation instructions below:
-
+Follow these steps to set up the project:
 ```bash
 # Clone the repository
-1. git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git
 
 # Navigate to the project directory
-2. cd your-repo-name
+cd your-repo-name
+```
+### Requirements:
+- Python 3.x
+- Jupyter Notebook
+- Required ML libraries (`pip install -r requirements.txt`)
+- Ensure datasets are placed in the correct directory.
 
-# Additional installation steps, if any, go here
-3. Install Anacoda environment and install Jupyter Notebook
-4. Make sure python 3.0 + (above) is install
-5. Make sure all necessary machine learning libraries and  packages are well install
-6. Run Jupyter Note sequentailly and make sure dataset is placed at the right directory.

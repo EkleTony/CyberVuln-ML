@@ -25,16 +25,41 @@ Software vulnerabilities pose security risks, and traditional classification met
 Follow these steps to set up the project:
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/EkleTony/ML-CVE-Categorization.git
 
 # Navigate to the project directory
-cd your-repo-name
+cd ML-CVE-Categorization
+
+# Install required dependencies
+pip install -r requirements.txt
 ```
-### Requirements:
+
+### Requirements
+The following dependencies are required to run the project:
 - Python 3.x
 - Jupyter Notebook
-- Required ML libraries (`pip install -r requirements.txt`)
-- Ensure datasets are placed in the correct directory.
+- NumPy
+- Pandas
+- Scikit-learn
+- TensorFlow
+- Torch
+- Matplotlib
+- Seaborn
+- NLTK
+- TQDM
+- WordNetLemmatizer (NLTK)
+- IMBlearn (SMOTE)
+- OS
+- RE (Regular Expressions)
+- String
+
+Ensure the dataset is placed in the correct directory before running the notebooks.
+
+## Usage
+Run the Jupyter Notebook using:
+```bash
+jupyter notebook JupyterNote_CVE_Prediction_Code.ipynb
+```
 
 ## License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute the dataset and code with proper attribution. However, if using this dataset in academic or research work, please **cite the following paper**:

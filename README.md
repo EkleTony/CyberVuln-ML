@@ -1,4 +1,4 @@
-# Machine Learning-based Categorization of Cybersecurity Vulnerabilities in Software
+# Machine Learning-based: Enhanced Categorization of Cybersecurity Vulnerabilities
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)  
 [![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709)  

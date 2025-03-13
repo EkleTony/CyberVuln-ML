@@ -25,7 +25,7 @@ Software vulnerabilities pose security risks, and traditional classification met
 Follow these steps to set up the project:
 ```bash
 # Clone the repository
-git clone https://github.com/EkleTony/ML-CVE-Categorization.git
+git clone https://github.com/EkleTony/CyberVuln-ML.git
 
 # Navigate to the project directory
 cd ML-CVE-Categorization

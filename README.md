@@ -14,7 +14,6 @@ This repository contains the source codes, datasets, and analysis results of our
 - [Installation](#installation)
 - [Usage](#usage)
 - [Datasets](#datasets)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -24,11 +23,11 @@ Cybersecurity vulnerabilities in software pose significant risks to organization
 
 ## Research Paper
 
-The comprehensive details of our research, including methodologies, experimental setup, results, and discussions, have been documented in our research paper. You can access the paper in PDF format using the following link: [Link to Paper Publication](https://link-to-paper-publication) **Yet to be Published**.
+The comprehensive details of our research, including methodologies, experimental setup, results, and discussions, have been documented in our research paper. You can access the paper in PDF format using the following link: [Link to Paper Publication]([https://link-to-paper-publication](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709))
 
 ## Poster
 
-Our research project was presented as a poster at the Tennessee Technological University Annual Research Conference. The poster provides a visual overview of the research objectives, key findings, and conclusions. You can view and download the poster in PDF format using the following link: [Link to Poster](https://link-to-poster) **Yet to be Publish**.
+Our research project was presented as a poster at the Tennessee Technological University Annual Research Conference. The poster provides a visual overview of the research objectives, key findings, and conclusions. You can view and download the poster in PDF format using the following link: [Link to Poster]([https://link-to-poster](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC))
 
 ## Installation
 

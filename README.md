@@ -36,3 +36,17 @@ cd your-repo-name
 - Required ML libraries (`pip install -r requirements.txt`)
 - Ensure datasets are placed in the correct directory.
 
+## License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute the dataset and code with proper attribution. However, if using this dataset in academic or research work, please **cite the following paper**:
+
+```
+@inproceedings{ekle2024enhanced,
+  title={Enhanced Categorization of Cybersecurity Vulnerabilities},
+  author={Ekle, Ocheme Anthony and Ulybyshev, Denis},
+  booktitle={2024 IEEE 15th Annual Ubiquitous Computing, Electronics \& Mobile Communication Conference (UEMCON)},
+  pages={800--806},
+  year={2024},
+  organization={IEEE}
+}
+```
+

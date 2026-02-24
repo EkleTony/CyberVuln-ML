@@ -9,7 +9,11 @@ This repository contains the implementation, dataset preprocessing pipeline, and
 🏆 The work was awarded **Best Research Poster** at Tennessee Tech’s Annual Research Conference.
 
 ---
+## CVE Categorization System Architecture
 
+![CVE Categorization Framework](02_core_design.png)
+
+*Figure 2: End-to-end architecture of the CVE categorization system, including dataset preprocessing, feature engineering, class imbalance handling (SMOTE), supervised model training, and evaluation pipeline.*
 ## Overview
 
 Software vulnerabilities (CVEs) pose critical security risks across modern software systems. Manual vulnerability classification is time-consuming, inconsistent, and prone to human error.

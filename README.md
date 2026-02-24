@@ -1,38 +1,74 @@
 # Machine Learning-based: Enhanced Categorization of Cybersecurity Vulnerabilities
 
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/your-username/your-repo-name/blob/main/LICENSE)  
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709)  
-[![Poster](https://img.shields.io/badge/Poster-PDF-orange.svg)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20UEMCON%202024-red.svg)](https://ieeexplore.ieee.org/abstract/document/10754709)  
+[![Poster](https://img.shields.io/badge/Award-Best%20Research%20Poster-orange.svg)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
 
-This repository contains the code, datasets, and results of our research on **Machine Learning-based categorization of cybersecurity vulnerabilities in software**, published at **2024 IEEE UEMCON**. The project was also awarded **Best Research Poster** at Tennessee Tech’s Annual Research Conference.
+This repository contains the implementation, dataset preprocessing pipeline, and experimental results for our research on **machine learning-based categorization of cybersecurity vulnerabilities**, published at **IEEE UEMCON 2024**.
 
-## Table of Contents
-- [Overview](#overview)
-- [Research Paper & Poster](#research-paper--poster)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
+🏆 The work was awarded **Best Research Poster** at Tennessee Tech’s Annual Research Conference.
+
+---
 
 ## Overview
-Software vulnerabilities pose security risks, and traditional classification methods can be slow and error-prone. This project utilizes **Machine Learning** to automate and improve the categorization of cybersecurity vulnerabilities.
 
-## Research Paper & Poster
-- **Paper:** [IEEE UEMCON 2024](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10754709)  
-- **Poster:** [Tennessee Tech Research Conference](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
+Software vulnerabilities (CVEs) pose critical security risks across modern software systems. Manual vulnerability classification is time-consuming, inconsistent, and prone to human error.
+
+This project proposes a **supervised machine learning framework** for automated classification of cybersecurity vulnerabilities using structured metadata and textual CVE descriptions.
+
+The approach includes:
+
+- Data preprocessing and label normalization  
+- Handling multi-label CVEs via record expansion  
+- Text cleaning and feature engineering  
+- Class imbalance mitigation using SMOTE  
+- Comparative evaluation across multiple ML models  
+
+The framework demonstrates strong predictive performance in categorizing CVEs into 13 standardized vulnerability classes.
+
+---
+
+## Dataset
+
+The dataset was derived from the public repository of Yosifova et al. (2021) and originally scraped from the **CVE Security Vulnerability Database (CVE Details)**.
+
+- 📅 Time span: 1999–2019  
+- 📊 Original records: 123,000 CVEs  
+- 📈 Final processed records: 162,789  
+- 🏷 13 standardized vulnerability categories  
+
+Each CVE contains attributes such as:
+
+- CVE-ID  
+- CVSS score  
+- Access mode  
+- Attack complexity  
+- Textual vulnerability description  
+- Vulnerability type  
+
+Multi-label CVEs were separated into individual records to ensure clean supervised learning.
+
+---
+
+## Research Paper & Award
+
+- 📄 **Paper (IEEE UEMCON 2024):**  
+  https://ieeexplore.ieee.org/abstract/document/10754709  
+
+- 🖼 **Best Research Poster Award:**  
+  Tennessee Tech University Annual Research Conference  
+
+---
 
 ## Installation
-Follow these steps to set up the project:
+
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/EkleTony/CyberVuln-ML.git
+cd CyberVuln-ML
 
-# Navigate to the project directory
-cd ML-CVE-Categorization
-
-# Install required dependencies
+# Install dependencies
 pip install -r requirements.txt
-```
 
 ### Requirements
 The following dependencies are required to run the project:

@@ -2,34 +2,35 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20UEMCON%202024-red.svg)](https://ieeexplore.ieee.org/abstract/document/10754709)  
-[![Poster](https://img.shields.io/badge/Award-Best%20Research%20Poster-orange.svg)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
+[![Award](https://img.shields.io/badge/Award-Best%20Research%20Poster-orange.svg)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fk1n8VQAAAAJ&citation_for_view=fk1n8VQAAAAJ:qjMakFHDy7sC)
 
-This repository contains the implementation, dataset preprocessing pipeline, and experimental results for our research on **machine learning-based categorization of cybersecurity vulnerabilities**, published at **IEEE UEMCON 2024**.
+Implementation and experimental results for our **IEEE UEMCON 2024** paper on automated machine learning-based categorization of cybersecurity vulnerabilities.
 
-🏆 The work was awarded **Best Research Poster** at Tennessee Tech’s Annual Research Conference.
+🏆 Awarded *Best Research Poster* at Tennessee Tech’s Annual Research Conference.
 
 ---
+
 ## CVE Categorization System Architecture
 
 ![CVE Categorization Framework](02_core_design.png)
 
-*Figure 2: End-to-end architecture of the CVE categorization system, including dataset preprocessing, feature engineering, class imbalance handling (SMOTE), supervised model training, and evaluation pipeline.*
+*Figure 2: End-to-end CVE categorization pipeline including preprocessing, feature engineering, SMOTE-based imbalance handling, model training, and evaluation.*
+
+---
+
 ## Overview
 
-Software vulnerabilities (CVEs) pose critical security risks across modern software systems. Manual vulnerability classification is time-consuming, inconsistent, and prone to human error.
+Software vulnerabilities (CVEs) require accurate and scalable classification.  
+This project presents a **supervised machine learning framework** that automates vulnerability categorization using structured attributes and textual descriptions.
 
-This project proposes a **supervised machine learning framework** for automated classification of cybersecurity vulnerabilities using structured metadata and textual CVE descriptions.
+Key components:
 
-The approach includes:
+- Label normalization and multi-label expansion  
+- Text preprocessing and feature engineering  
+- Class imbalance handling (SMOTE)  
+- Comparative evaluation across ML models  
 
-- Data preprocessing and label normalization  
-- Handling multi-label CVEs via record expansion  
-- Text cleaning and feature engineering  
-- Class imbalance mitigation using SMOTE  
-- Comparative evaluation across multiple ML models  
-
-The framework demonstrates strong predictive performance in categorizing CVEs into 13 standardized vulnerability classes.
-
+The framework categorizes CVEs into **13 standardized vulnerability classes** with strong predictive performance.
 ---
 
 ## Dataset
